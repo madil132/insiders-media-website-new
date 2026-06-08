@@ -1166,7 +1166,7 @@ p  { color: var(--gray-600); line-height: 1.75; }
 .testimonials-ticker-track {
   display: flex;
   width: max-content;
-  animation: testimonialsTicker 60s linear infinite;
+  animation: testimonialsTicker 90s linear infinite;
   gap: 24px;
 }
 .testimonials-ticker-track:hover { animation-play-state: paused; }
