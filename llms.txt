@@ -1,0 +1,37 @@
+# Insiders Media
+
+> Insiders Media is a B2B tech agency based in Pakistan specialising in AI automation, custom software development, performance advertising, and lead capture & identity resolution. We help businesses scale through intelligent systems and data-driven marketing.
+
+Insiders Media operates at the intersection of artificial intelligence and digital marketing, delivering end-to-end solutions for growth-focused businesses. Our team builds custom AI workflows, automates business processes, runs high-ROI paid advertising campaigns, and develops proprietary lead capture systems that identify anonymous website visitors and enrich CRM pipelines.
+
+We serve clients globally with a focus on measurable outcomes: reduced operational costs through automation, increased lead volume through identity resolution, and improved ROAS through performance advertising.
+
+Keywords: B2B tech agency, AI automation agency, performance advertising agency, custom software development, lead capture, identity resolution, Pakistan, n8n, Make, Zapier, OpenAI, Meta Ads, Google Ads, YouTube Ads, workflow automation, CRM enrichment, AI agents, retargeting, conversion optimisation.
+
+## Services
+
+- [AI & Automation](https://insidersmedia.xyz/services.html): We design and deploy intelligent automation workflows using tools like n8n, Make (formerly Integromat), and Zapier — integrated with OpenAI, custom LLMs, and third-party APIs. Use cases include AI sales agents, customer support bots, automated reporting pipelines, and CRM synchronisation.
+- [Custom Development](https://insidersmedia.xyz/services.html): Bespoke software development including web applications, API integrations, internal tools, and SaaS products. Built to spec with scalability and maintainability in mind.
+- [Performance Advertising](https://insidersmedia.xyz/services.html): Full-funnel paid media management across Meta Ads (Facebook & Instagram), Google Ads, and YouTube Ads. We handle creative strategy, audience targeting, campaign optimisation, and analytics to maximise return on ad spend (ROAS).
+- [Lead Capture & Identity Resolution](https://insidersmedia.xyz/services.html): Proprietary technology that de-anonymises website visitors and matches them to contact-level data — name, email, phone, LinkedIn profile — enabling retargeting and outbound outreach at scale.
+
+## Pages
+
+- [Home](https://insidersmedia.xyz/): Overview of Insiders Media's mission, capabilities, and value proposition.
+- [Services](https://insidersmedia.xyz/services.html): Detailed breakdown of all four service offerings.
+- [About](https://insidersmedia.xyz/about.html): Company background, team philosophy, and why clients choose Insiders Media.
+- [Results](https://insidersmedia.xyz/results.html): Case studies and measurable outcomes delivered for clients.
+- [Contact](https://insidersmedia.xyz/contact.html): Get in touch to discuss a project or request a strategy call.
+
+## Contact & Social
+
+- [Website](https://insidersmedia.xyz): insidersmedia.xyz
+- [Email](mailto:insidersmedia.agency@gmail.com): insidersmedia.agency@gmail.com
+- [Phone / WhatsApp](tel:+923217529632): +92 321 752 9632
+- [LinkedIn](https://www.linkedin.com/company/insiders-media/): Insiders Media on LinkedIn
+- [Instagram](https://www.instagram.com/insiders.media): @insiders.media on Instagram
+
+## Optional
+
+- [Sitemap](https://insidersmedia.xyz/sitemap.xml): Full XML sitemap listing all pages with priorities and change frequencies.
+- [Robots](https://insidersmedia.xyz/robots.txt): robots.txt — all crawlers including AI bots are permitted to index this site.

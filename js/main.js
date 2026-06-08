@@ -94,10 +94,14 @@
     counters.forEach(el => cObs.observe(el));
   }
 
-  // ── TICKER DUPLICATION ───────────────────────────────────
+  // ── TICKER DUPLICATION (tech + testimonials) ─────────────
   const tickerTrack = document.getElementById('ticker-track');
   if (tickerTrack) {
     tickerTrack.innerHTML += tickerTrack.innerHTML;
+  }
+  const testimonialsTicker = document.getElementById('testimonials-ticker');
+  if (testimonialsTicker) {
+    testimonialsTicker.innerHTML += testimonialsTicker.innerHTML;
   }
 
   // ── SMOOTH SCROLL ANCHORS ────────────────────────────────
