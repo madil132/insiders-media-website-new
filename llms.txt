@@ -10,22 +10,22 @@ Keywords: B2B tech agency, AI automation agency, performance advertising agency,
 
 ## Services
 
-- [AI & Automation](https://insidersmedia.xyz/services.html): We design and deploy intelligent automation workflows using tools like n8n, Make (formerly Integromat), and Zapier — integrated with OpenAI, custom LLMs, and third-party APIs. Use cases include AI sales agents, customer support bots, automated reporting pipelines, and CRM synchronisation.
-- [Custom Development](https://insidersmedia.xyz/services.html): Bespoke software development including web applications, API integrations, internal tools, and SaaS products. Built to spec with scalability and maintainability in mind.
-- [Performance Advertising](https://insidersmedia.xyz/services.html): Full-funnel paid media management across Meta Ads (Facebook & Instagram), Google Ads, and YouTube Ads. We handle creative strategy, audience targeting, campaign optimisation, and analytics to maximise return on ad spend (ROAS).
-- [Lead Capture & Identity Resolution](https://insidersmedia.xyz/services.html): Proprietary technology that de-anonymises website visitors and matches them to contact-level data — name, email, phone, LinkedIn profile — enabling retargeting and outbound outreach at scale.
+- [AI & Automation](https://www.insidersmedia.xyz/services): We design and deploy intelligent automation workflows using tools like n8n, Make (formerly Integromat), and Zapier — integrated with OpenAI, custom LLMs, and third-party APIs. Use cases include AI sales agents, customer support bots, automated reporting pipelines, and CRM synchronisation.
+- [Custom Development](https://www.insidersmedia.xyz/services): Bespoke software development including web applications, API integrations, internal tools, and SaaS products. Built to spec with scalability and maintainability in mind.
+- [Performance Advertising](https://www.insidersmedia.xyz/services): Full-funnel paid media management across Meta Ads (Facebook & Instagram), Google Ads, and YouTube Ads. We handle creative strategy, audience targeting, campaign optimisation, and analytics to maximise return on ad spend (ROAS).
+- [Lead Capture & Identity Resolution](https://www.insidersmedia.xyz/services): Proprietary technology that de-anonymises website visitors and matches them to contact-level data — name, email, phone, LinkedIn profile — enabling retargeting and outbound outreach at scale.
 
 ## Pages
 
-- [Home](https://insidersmedia.xyz/): Overview of Insiders Media's mission, capabilities, and value proposition.
-- [Services](https://insidersmedia.xyz/services.html): Detailed breakdown of all four service offerings.
-- [About](https://insidersmedia.xyz/about.html): Company background, team philosophy, and why clients choose Insiders Media.
-- [Results](https://insidersmedia.xyz/results.html): Case studies and measurable outcomes delivered for clients.
-- [Contact](https://insidersmedia.xyz/contact.html): Get in touch to discuss a project or request a strategy call.
+- [Home](https://www.insidersmedia.xyz/): Overview of Insiders Media's mission, capabilities, and value proposition.
+- [Services](https://www.insidersmedia.xyz/services): Detailed breakdown of all four service offerings.
+- [About](https://www.insidersmedia.xyz/about): Company background, team philosophy, and why clients choose Insiders Media.
+- [Results](https://www.insidersmedia.xyz/results): Case studies and measurable outcomes delivered for clients.
+- [Contact](https://www.insidersmedia.xyz/contact): Get in touch to discuss a project or request a strategy call.
 
 ## Contact & Social
 
-- [Website](https://insidersmedia.xyz): insidersmedia.xyz
+- [Website](https://www.insidersmedia.xyz): www.insidersmedia.xyz
 - [Email](mailto:insidersmedia.agency@gmail.com): insidersmedia.agency@gmail.com
 - [Phone / WhatsApp](tel:+923217529632): +92 321 752 9632
 - [LinkedIn](https://www.linkedin.com/company/insiders-media/): Insiders Media on LinkedIn
@@ -33,5 +33,5 @@ Keywords: B2B tech agency, AI automation agency, performance advertising agency,
 
 ## Optional
 
-- [Sitemap](https://insidersmedia.xyz/sitemap.xml): Full XML sitemap listing all pages with priorities and change frequencies.
-- [Robots](https://insidersmedia.xyz/robots.txt): robots.txt — all crawlers including AI bots are permitted to index this site.
+- [Sitemap](https://www.insidersmedia.xyz/sitemap.xml): Full XML sitemap listing all pages with priorities and change frequencies.
+- [Robots](https://www.insidersmedia.xyz/robots.txt): robots.txt — all crawlers including AI bots are permitted to index this site.
