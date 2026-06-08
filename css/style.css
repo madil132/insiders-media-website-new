@@ -1626,3 +1626,104 @@ p  { color: var(--gray-600); line-height: 1.75; }
   letter-spacing: 0.05em;
 }
 
+
+
+/* ============================================================
+   FOOTER LOGO + NAME
+   ============================================================ */
+.footer__brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.footer__brand-logo img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  opacity: .92;
+}
+.footer__brand-name {
+  font-size: 19px;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -.03em;
+  text-transform: lowercase;
+}
+
+/* ============================================================
+   AUDIT PAGE
+   ============================================================ */
+.audit-hero {
+  padding: 140px 0 80px;
+  background: linear-gradient(135deg, #08080f 0%, #10102a 50%, #0a0a1f 100%);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.audit-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 40% at 50% 30%, rgba(99,102,241,.18) 0%, transparent 70%);
+  pointer-events: none;
+}
+.audit-hero .container { position: relative; max-width: 760px; }
+.audit-hero__label {
+  display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .12em;
+  text-transform: uppercase; color: #818cf8; background: rgba(99,102,241,.1);
+  border: 1px solid rgba(99,102,241,.25); padding: 6px 18px; border-radius: 100px; margin-bottom: 24px;
+}
+.audit-hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; line-height: 1.15; color: #fff; margin-bottom: 20px; }
+.audit-hero p { font-size: 1.1rem; color: rgba(255,255,255,.62); line-height: 1.75; max-width: 640px; margin: 0 auto 28px; }
+.audit-hero__badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.audit-hero__badges span { font-size: 13px; color: rgba(255,255,255,.65); background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); padding: 7px 16px; border-radius: 100px; }
+.audit-form-section { background: #0b0b18; padding: 56px 0 100px; }
+.audit-form-wrapper { max-width: 740px; margin: 0 auto; background: rgba(255,255,255,.025); border: 1px solid rgba(255,255,255,.08); border-radius: 24px; padding: 52px 56px; }
+.audit-progress { margin-bottom: 48px; }
+.audit-progress__steps { display: flex; justify-content: space-between; position: relative; margin-bottom: 20px; }
+.audit-step-dot { display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; position: relative; z-index: 1; }
+.audit-step-dot:not(:last-child)::after { content: ''; position: absolute; top: 15px; left: 55%; width: 90%; height: 2px; background: rgba(255,255,255,.08); z-index: 0; }
+.dot-num { width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,.05); border: 2px solid rgba(255,255,255,.12); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: rgba(255,255,255,.3); transition: all .35s ease; position: relative; z-index: 1; }
+.dot-label { font-size: 11px; color: rgba(255,255,255,.28); font-weight: 500; transition: color .35s ease; }
+.audit-step-dot.active .dot-num { background: linear-gradient(135deg, #6366f1, #8b5cf6); border-color: #6366f1; color: #fff; box-shadow: 0 0 20px rgba(99,102,241,.45); }
+.audit-step-dot.active .dot-label { color: #a5b4fc; font-weight: 600; }
+.audit-step-dot.done .dot-num { background: rgba(99,102,241,.18); border-color: rgba(99,102,241,.4); color: #818cf8; }
+.audit-step-dot.done .dot-label { color: rgba(255,255,255,.4); }
+.audit-progress__bar { height: 4px; background: rgba(255,255,255,.07); border-radius: 2px; overflow: hidden; }
+.audit-progress__fill { height: 100%; background: linear-gradient(90deg, #6366f1, #8b5cf6); border-radius: 2px; transition: width .5s cubic-bezier(.4,0,.2,1); }
+.audit-step { display: none; }
+.audit-step.active { display: block; animation: auditFadeIn .35s ease; }
+@keyframes auditFadeIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+.audit-step__header { margin-bottom: 36px; }
+.audit-step__tag { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #818cf8; margin-bottom: 10px; }
+.audit-step__header h2 { font-size: 1.85rem; font-weight: 800; color: #fff; margin-bottom: 10px; line-height: 1.2; }
+.audit-step__header p { color: rgba(255,255,255,.5); font-size: .95rem; line-height: 1.65; }
+.audit-fields { display: flex; flex-direction: column; gap: 26px; }
+.audit-field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.req { color: #818cf8; }
+.audit-field label { display: block; font-size: 14px; font-weight: 600; color: rgba(255,255,255,.78); margin-bottom: 10px; line-height: 1.4; }
+.audit-field input[type="text"],.audit-field input[type="email"],.audit-field input[type="tel"],.audit-field textarea { width: 100%; box-sizing: border-box; background: rgba(255,255,255,.04); border: 1.5px solid rgba(255,255,255,.1); border-radius: 12px; padding: 14px 18px; font-size: 15px; color: #fff; font-family: inherit; line-height: 1.6; transition: border-color .2s, background .2s, box-shadow .2s; resize: vertical; }
+.audit-field input:focus,.audit-field textarea:focus { outline: none; border-color: rgba(99,102,241,.55); background: rgba(99,102,241,.06); box-shadow: 0 0 0 3px rgba(99,102,241,.12); }
+.audit-field input.error,.audit-field textarea.error { border-color: rgba(239,68,68,.5); background: rgba(239,68,68,.04); box-shadow: 0 0 0 3px rgba(239,68,68,.1); }
+.audit-field input::placeholder,.audit-field textarea::placeholder { color: rgba(255,255,255,.18); font-size: 13.5px; }
+.audit-options { display: flex; flex-wrap: wrap; gap: 10px; }
+.audit-option { cursor: pointer; }
+.audit-option input[type="radio"] { display: none; }
+.audit-option span { display: block; padding: 10px 20px; border-radius: 10px; border: 1.5px solid rgba(255,255,255,.1); background: rgba(255,255,255,.04); font-size: 14px; font-weight: 500; color: rgba(255,255,255,.6); cursor: pointer; transition: all .2s ease; user-select: none; }
+.audit-option:hover span { border-color: rgba(99,102,241,.4); color: #fff; background: rgba(99,102,241,.06); }
+.audit-option input[type="radio"]:checked + span { background: rgba(99,102,241,.16); border-color: #6366f1; color: #c7d2fe; font-weight: 600; }
+.audit-nav { display: flex; justify-content: flex-end; align-items: center; gap: 12px; margin-top: 44px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,.07); }
+.audit-success { text-align: center; padding: 40px 20px; animation: auditFadeIn .4s ease; }
+.audit-success__icon { font-size: 60px; margin-bottom: 24px; }
+.audit-success h2 { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 16px; }
+.audit-success p { color: rgba(255,255,255,.6); font-size: 1rem; line-height: 1.75; max-width: 520px; margin: 0 auto 14px; }
+.audit-success__sub { font-size: .88rem !important; color: rgba(255,255,255,.35) !important; }
+.audit-success .btn { margin-top: 20px; }
+@media (max-width: 700px) {
+  .audit-form-wrapper { padding: 28px 20px; }
+  .audit-field-row { grid-template-columns: 1fr; }
+  .dot-label { display: none; }
+  .audit-step__header h2 { font-size: 1.4rem; }
+  .audit-hero__badges span { font-size: 12px; padding: 6px 12px; }
+}
